@@ -1,0 +1,23 @@
+/*fondo del navbar */
+.navbar {
+  background: #0000ff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para los enlaces */
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Cambio de color y leve aumento de tamaño al pasar el mouse */
+.navbar a:hover {
+  color: #ffc107;
+  transform: scale(1.1);
+}
